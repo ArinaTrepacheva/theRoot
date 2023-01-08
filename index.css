@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(250, 239, 227);
+}
+.red{
+    color: red;
+    font-size: 20px;
+}
+.btn{
+width: 100%;
+}
+.v{
+    text-align: center;
+    font-size: 20px;
+}
+.van{
+    margin-top: 20px;
+}
+h1{
+ text-align: center;
+}
+.w{
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   animation: one 1.2s;
+}
+@keyframes one{
+    from{
+        transform: translateX(-1000px);
+    }
+}
+@media (max-width:500px){
+    .btn{
+        width: 100%;
+    }
+}
